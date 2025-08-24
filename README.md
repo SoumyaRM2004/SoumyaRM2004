@@ -1,6 +1,6 @@
 # 👋 Hey, I'm Soumya Ranjan Mohapatra  
 
-🚀 **AI & Data Science Enthusiast | Aspiring AI Agentic Systems Engineer | BFSI Domain Explorer**  
+🚀 **AI & Data Science Enthusiast | Aspiring AI Agentic Systems Engineer **  
 💡 Turning **data** into **decisions** and **LLMs** into **intelligent agents**  
 
 ---
