@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Soumya Ranjan Mohapatra  
+# 👋 Hey, I'm Soumyaranjan Mohapatra  
 
 🚀 **AI & Data Science Enthusiast | Aspiring AI Agentic Systems Engineer **  
 💡 Turning **data** into **decisions** and **LLMs** into **intelligent agents**  
