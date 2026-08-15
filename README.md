@@ -23,7 +23,7 @@
 ---
 
 ## 📚 Education  
-🎓 **B. Tech (CSE)** – GIET University (2022–26) | CGPA: **8.55**  
+🎓 **B. Tech (CSE)** – GIET University (2022–26) | CGPA: **8.52**  
 🎓 **+2 Science** – Tetrahedron Junior College (CHSE) | **83.33%**  
 🎓 **10th** – Saraswati Shishu Vidya Mandir (BSE) | **87.16%**  
 
