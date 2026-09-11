@@ -103,8 +103,7 @@
 ---
 
 ## 📬 Connect With Me  
-📧 Email: [soumyasrm04@gmail.com](mailto:soumyasrm04@gmail.com)  
-📱 Phone: [+91-8260798592](tel:+918260798592)  
+📧 Email: [soumyasrm04@gmail.com](mailto:soumyasrm04@gmail.com)   
 🌐 [LinkedIn](https://www.linkedin.com/in/srmohapatra)
 
 ---
