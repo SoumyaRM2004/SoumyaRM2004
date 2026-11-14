@@ -1,162 +1,571 @@
-<!-- PROFILE README — SoumyaRM2004 -->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0F172A,50:155E75,100:0E7490&text=Soumyaranjan%20Mohapatra&fontColor=FFFFFF&fontSize=38&fontAlignY=38&desc=AI%20%7C%20Backend%20%7C%20Data%20Engineering&descAlignY=60&descSize=17" width="100%" alt="Soumyaranjan Mohapatra — AI, Backend and Data Engineering" />
+# Soumyaranjan Mohapatra
 
-<a href="https://github.com/SoumyaRM2004"><img src="https://img.shields.io/badge/GitHub-SoumyaRM2004-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/srmohapatra"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
-<a href="mailto:soumyasrm04@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+### AI Engineer • Backend Developer • Data & Analytics Engineer
 
-**Building practical AI systems, reliable APIs, and data-driven products.**
+**Building practical AI systems, intelligent data applications, and reliable backend services.**
+
+<br>
+
+<a href="https://github.com/SoumyaRM2004">
+  <img src="https://img.shields.io/badge/GitHub-SoumyaRM2004-181717?style=for-the-badge&logo=github" alt="GitHub">
+</a>
+<a href="https://www.linkedin.com/in/srmohapatra">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+</a>
+<a href="mailto:soumyasrm04@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=SoumyaRM2004&style=for-the-badge&color=0e7490&label=PROFILE+VIEWS" alt="Profile views">
 
 </div>
 
 ---
 
-## About
+# About Me
 
-I'm a Computer Science graduate focused on **applied AI engineering, backend development, and data systems**. I enjoy taking a real operational or business problem and turning it into a working system—with clear data flows, APIs, validation, and measurable behavior.
+I'm a **Computer Science & Engineering graduate** focused on building practical software around **AI, backend systems, data engineering, and analytics**.
 
-- Building agentic applications with **LangGraph, retrieval-augmented generation (RAG), and LLM workflows**
-- Developing backend services with **Python, FastAPI, SQL, and relational databases**
-- Exploring **data engineering, ETL pipelines, analytics, and decision-support systems**
-- Interested in production-minded engineering: testing, evidence-grounded outputs, data integrity, and human approval
+My recent work has moved beyond traditional ML notebooks toward complete systems involving:
 
-## Featured Projects
+- **Agentic AI and multi-agent workflows**
+- **RAG and vector search**
+- **LangGraph orchestration**
+- **FastAPI backend services**
+- **PostgreSQL / MySQL data systems**
+- **ETL and analytics pipelines**
+- **Production-oriented testing and validation**
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I enjoy taking a business or operational problem and turning it into a system with a clear architecture, reliable data flow, APIs, and measurable behavior.
 
-### [OpsGuard Copilot](https://github.com/SoumyaRM2004/OpsGuard_Copilot)
-**Self-reflective RAG for production incident response**
+### Current Focus
 
-- LangGraph-based workflow with retrieval, relevance grading, query rewriting, and answer verification
-- Persistent incident context and external-search fallback
-- Designed for SRE and cloud troubleshooting scenarios
+```text
+Agentic AI
+     ↓
+LangGraph + RAG + LLM Workflows
+     ↓
+FastAPI + PostgreSQL
+     ↓
+Data Engineering + Analytics
+     ↓
+Production-oriented AI Systems
+```
 
-`Python` `LangGraph` `RAG` `FastAPI` `Pinecone`
+---
 
-</td>
-<td width="50%" valign="top">
+# Featured Projects
 
-### [IncidentPilot](https://github.com/SoumyaRM2004/IncidentPilot-Multi-Agent-Production-Incident-Response-System)
-**Multi-agent production incident investigation**
+## 01 — OpsGuard Copilot
 
-- Specialist agents investigate logs, metrics, deployments, and runbooks
-- Evidence checks plus semantic verification before RCA recommendations
-- Human approval gate for remediation
+### Enterprise Incident Response Self-RAG Copilot
 
-`Python` `LangGraph` `FastAPI` `Qdrant` `Pytest`
+<a href="https://github.com/SoumyaRM2004/OpsGuard_Copilot">
+<img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github" alt="View OpsGuard">
+</a>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**What it solves**
 
-### [RideOps AI Analytics Agent](https://github.com/SoumyaRM2004/RideOps_AI_Analytics_Agent)
-**Natural-language analytics and ETL platform**
+OpsGuard is an agentic incident-response system designed to help engineers investigate production incidents while reducing unsupported or hallucinated troubleshooting guidance.
 
-- Routes questions to SQL analytics and ETL agents
-- PostgreSQL-backed analytics with query validation and security review
-- Enriches synthetic ride data with external weather observations
+### Core capabilities
 
-`Python` `LangGraph` `PostgreSQL` `Pandas` `FastAPI`
+- Self-reflective RAG workflow
+- Dynamic retrieval routing
+- Document relevance grading
+- Query rewriting when retrieval fails
+- Evidence-grounded answer verification
+- Persistent incident memory
+- External web-search fallback
+- LangGraph workflow orchestration
+- FastAPI backend
 
-</td>
-<td width="50%" valign="top">
+### Architecture
 
-### [AI Patient Front Desk](https://github.com/SoumyaRM2004/ai-patient-front-desk)
-**Multi-tenant clinic operations backend**
+```text
+                    Incident / Question
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │  Query Router   │
+                  └────────┬────────┘
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │ Retrieval Layer │
+                  └────────┬────────┘
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │ Relevance Grade │
+                  └────────┬────────┘
+                           │
+                  ┌────────┴────────┐
+                  │                 │
+             Relevant          Insufficient
+                  │                 │
+                  ▼                 ▼
+             LLM Answer       Query Rewrite
+                  │                 │
+                  └────────┬────────┘
+                           ▼
+                  ┌─────────────────┐
+                  │ Answer Verify   │
+                  └────────┬────────┘
+                           ▼
+                     Final Response
+```
 
-- Tenant-isolated clinic, doctor, service, patient, and appointment APIs
-- Appointment availability validation and concurrency-safe booking
-- README reports 107 passing automated tests for the current phase
+**Stack**
 
-`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Pytest`
+`Python` `LangGraph` `RAG` `FastAPI` `Pinecone` `Groq` `Tavily`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+---
 
-### [Manufacturing Production & Downtime Management](https://github.com/SoumyaRM2004/Manufacturing_Production_-_Downtime_Management)
-**MES-inspired production monitoring application**
+# 02 — IncidentPilot
 
-- Machine and production-order management
-- Downtime tracking, duration calculation, and SQL-backed analytics
-- REST API with a responsive operations dashboard
+### Multi-Agent Production Incident Investigation System
+
+<a href="https://github.com/SoumyaRM2004/IncidentPilot-Multi-Agent-Production-Incident-Response-System">
+<img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github" alt="View IncidentPilot">
+</a>
+
+IncidentPilot coordinates specialized agents to investigate production incidents using logs, metrics, deployment information, and operational runbooks.
+
+### Investigation Flow
+
+```text
+                   Incident Alert
+                         │
+                         ▼
+                 ┌───────────────┐
+                 │   Supervisor  │
+                 └───────┬───────┘
+                         │
+          ┌──────────────┼──────────────┐
+          ▼              ▼              ▼
+       Logs Agent    Metrics Agent   Deploy Agent
+          │              │              │
+          └──────────────┼──────────────┘
+                         ▼
+                  Runbook RAG Agent
+                         │
+                         ▼
+                 Root Cause Analysis
+                         │
+                         ▼
+                Evidence Verification
+                         │
+                         ▼
+                  Remediation Plan
+                         │
+                         ▼
+              Human Approval Required
+```
+
+### Engineering Highlights
+
+- Dynamic multi-agent orchestration
+- Evidence-grounded RCA
+- Deterministic evidence verification
+- Semantic LLM verification
+- Runbook retrieval using vector search
+- Human-in-the-loop remediation
+- FastAPI REST backend
+- Streamlit investigation dashboard
+- Automated test suite
+
+**Stack**
+
+`Python` `LangGraph` `FastAPI` `Qdrant` `PostgreSQL` `SQLAlchemy` `Streamlit` `Pytest`
+
+---
+
+# 03 — RideOps AI Analytics Agent
+
+### Multi-Agent Analytics & ETL Platform
+
+<a href="https://github.com/SoumyaRM2004/RideOps_AI_Analytics_Agent">
+<img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github" alt="View RideOps">
+</a>
+
+RideOps combines natural-language analytics, SQL generation, ETL, external weather data, and PostgreSQL into an AI-powered analytics platform.
+
+### What it can do
+
+**SQL Analytics Agent**
+
+```text
+Natural Language Question
+          ↓
+       Router
+          ↓
+     SQL Analyst
+          ↓
+   SQL Generation
+          ↓
+   Query Validation
+          ↓
+    Security Review
+          ↓
+   PostgreSQL Query
+          ↓
+     Visualization
+```
+
+**ETL Agent**
+
+```text
+Open-Meteo API
+      ↓
+   Extraction
+      ↓
+    Pandas
+      ↓
+Transformation
+      ↓
+Duplicate Prevention
+      ↓
+  PostgreSQL
+      ↓
+Analytics
+```
+
+### Features
+
+- Natural-language-to-SQL analytics
+- SQL validation
+- LLM security review
+- Interactive charts
+- Database explorer
+- Weather ETL pipeline
+- External data enrichment
+- Multi-agent LangGraph workflow
+
+**Stack**
+
+`Python` `LangGraph` `FastAPI` `PostgreSQL` `Pandas` `Chart.js`
+
+---
+
+# 04 — AI Patient Front Desk
+
+### Multi-Tenant Clinic Backend
+
+<a href="https://github.com/SoumyaRM2004/ai-patient-front-desk">
+<img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github" alt="View AI Patient Front Desk">
+</a>
+
+A backend foundation for a multi-tenant clinic platform covering authentication, doctors, services, patients, working hours, and appointment management.
+
+### Engineering Highlights
+
+- JWT authentication
+- Multi-tenant data isolation
+- PostgreSQL database
+- Doctor and service management
+- Patient management
+- Appointment lifecycle management
+- Availability calculation
+- Timezone-aware scheduling
+- Conflict detection
+- Concurrency-safe booking
+- Alembic migrations
+- Automated testing
+
+### Booking Logic
+
+```text
+Appointment Request
+        │
+        ▼
+Doctor Working Hours
+        │
+        ▼
+Service Duration
+        │
+        ▼
+Candidate Slot Generation
+        │
+        ▼
+Existing Booking Check
+        │
+        ▼
+Database Lock
+        │
+        ▼
+Safe Appointment Creation
+```
+
+**Stack**
+
+`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Pydantic` `Alembic` `Pytest`
+
+---
+
+# 05 — Manufacturing MES Production System
+
+### Production & Downtime Management Platform
+
+<a href="https://github.com/SoumyaRM2004/Manufacturing_Production_-_Downtime_Management">
+<img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github" alt="View Manufacturing Project">
+</a>
+
+A Manufacturing Execution System-inspired application for managing machines, production orders, and downtime events.
+
+### Features
+
+- Machine management
+- Production order management
+- Downtime tracking
+- Automatic downtime duration calculation
+- SQL-based downtime analytics
+- REST APIs
+- Pydantic validation
+- MySQL relational database
+- Interactive dashboard
+- Swagger/OpenAPI documentation
+
+**Architecture**
+
+```text
+Bootstrap Dashboard
+        │
+        ▼
+     REST API
+        │
+        ▼
+     FastAPI
+        │
+ ┌──────┴──────┐
+ │             │
+Models      Schemas
+ │             │
+ └──────┬──────┘
+        ▼
+     MySQL
+```
+
+**Stack**
 
 `Python` `FastAPI` `MySQL` `SQLAlchemy` `Bootstrap`
 
-</td>
-<td width="50%" valign="top">
+---
 
-### [Payment Settlement Reconciliation](https://github.com/SoumyaRM2004/E-Commerce-Payment-Settlement-Reconciliation-System)
-**Financial operations audit and reconciliation**
+# 06 — Payment Settlement Reconciliation
 
-- Matches OMS transactions with payment gateway settlements
-- Identifies missing payouts, duplicate records, and settlement variances
-- Uses rule-based calculations and exception classification
+### E-Commerce Payment Audit & Reconciliation
 
-`Python` `SQL` `Data Analysis` `Reconciliation`
+<a href="https://github.com/SoumyaRM2004/E-Commerce-Payment-Settlement-Reconciliation-System">
+<img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github" alt="View Payment Reconciliation">
+</a>
 
-</td>
-</tr>
-</table>
+An analytical reconciliation system for identifying discrepancies between e-commerce order records and payment gateway settlement records.
 
-## Technical Skills
+### What it analyzes
 
-| Area | Tools and technologies |
-|---|---|
-| **Programming** | Python, Java, SQL |
-| **Backend & APIs** | FastAPI, Django, Flask, REST APIs, Pydantic, SQLAlchemy |
-| **AI & LLM systems** | LangChain, LangGraph, RAG, multi-agent workflows, vector search |
-| **Data & ML** | Pandas, NumPy, scikit-learn, TensorFlow |
-| **Databases** | PostgreSQL, MySQL, SQLite, Qdrant, Pinecone |
-| **Analytics & BI** | Power BI, Excel, Streamlit, Matplotlib |
-| **Engineering tools** | Git, GitHub, Pytest, Docker |
+- Missing settlements
+- Duplicate transactions
+- Gateway fee variance
+- Refund variance
+- Orphan bank credits
+- Settlement discrepancies
+- Cross-month settlement differences
+- Potential financial leakage
 
-## Other Projects
+### Reconciliation Pipeline
 
-- [Customer CLV Prediction](https://github.com/SoumyaRM2004/Customer-CLV-Prediction) — customer-value modeling and feature engineering.
-- [Customer Segmentation](https://github.com/SoumyaRM2004/Customer-Segmentation) — exploratory analysis and customer grouping.
-- [Bitcoin Risk Analytics](https://github.com/SoumyaRM2004/Bitcoin-Sentiment-Analysis) — market-risk scoring from price, sentiment, news, and public-interest signals.
-- [Plant Species Identification](https://github.com/SoumyaRM2004/Plant-Species-Identification) — image classification with deep learning.
-- [SearchEngine](https://github.com/SoumyaRM2004/SearchEngine) — a Streamlit search app with Gemini summaries and SerpAPI results · [Live demo](https://searchengine-india.streamlit.app/).
-- [Weather App](https://github.com/SoumyaRM2004/weather-app) — Django weather dashboard with geolocation and a five-day forecast · [Live demo](https://weather-app-nte6.onrender.com).
+```text
+OMS Transactions
+       │
+       ├───────────────┐
+       │               │
+       ▼               ▼
+Gateway Records    Bank Settlement
+       │               │
+       └───────┬───────┘
+               ▼
+        Transaction Match
+               │
+               ▼
+       Expected Settlement
+               │
+               ▼
+        Variance Analysis
+               │
+               ▼
+       Exception Classification
+               │
+               ▼
+        Business Insights
+```
 
-## Education
+**Stack**
 
-**B.Tech, Computer Science & Engineering**  
-GIET University, Gunupur · 2022–2026
-
-## GitHub Activity
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SoumyaRM2004&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SoumyaRM2004&layout=compact&hide_border=true&theme=transparent" alt="Most used languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=SoumyaRM2004&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
-</div>
-
-## Currently Exploring
-
-**Reliable agentic systems · RAG evaluation · Backend architecture · Data engineering**
+`Python` `SQL` `Pandas` `Data Analysis` `Financial Reconciliation`
 
 ---
 
+# Technical Skills
+
 <div align="center">
 
-**Interested in building useful software with thoughtful engineering.**
+### Programming
 
-<a href="https://www.linkedin.com/in/srmohapatra">LinkedIn</a> ·
-<a href="mailto:soumyasrm04@gmail.com">Email</a> ·
-<a href="https://github.com/SoumyaRM2004">GitHub</a>
+<img src="https://skillicons.dev/icons?i=python,java" alt="Python Java">
 
-<sub>Thanks for visiting my profile.</sub>
+### Backend & Databases
+
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,mysql,sqlite" alt="FastAPI PostgreSQL MySQL SQLite">
+
+### AI & Data
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" alt="TensorFlow PyTorch">
+
+<br>
+
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain">
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph">
+<img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge" alt="RAG">
+<img src="https://img.shields.io/badge/Vector%20Search-155E75?style=for-the-badge" alt="Vector Search">
+
+### Data & Analytics
+
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn">
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
+<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel">
+
+### Engineering
+
+<img src="https://skillicons.dev/icons?i=git,github,docker" alt="Git GitHub Docker">
+<img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest">
+
+</div>
+
+---
+
+# Other Projects
+
+### Machine Learning & Data
+
+| Project | Description |
+|---|---|
+| [Customer CLV Prediction](https://github.com/SoumyaRM2004/Customer-CLV-Prediction) | RFM segmentation and Customer Lifetime Value prediction using ensemble ML models and SHAP |
+| [Bitcoin Risk Analytics](https://github.com/SoumyaRM2004/Bitcoin-Sentiment-Analysis) | Market risk analytics combining price, sentiment, public interest, and volatility signals |
+| [Plant Species Identification](https://github.com/SoumyaRM2004/Plant-Species-Identification) | Computer vision system for plant identification using image processing and ML/DL |
+| [SearchEngine](https://github.com/SoumyaRM2004/SearchEngine) | Streamlit search application combining web search with AI-generated summaries |
+| [Heart Failure Prediction](https://github.com/SoumyaRM2004/Heart-Failure-Minor-Project-I) | Predictive modeling project for heart failure risk |
+
+---
+
+# Experience & Background
+
+### Education
+
+**B.Tech — Computer Science & Engineering**  
+GIET University, Gunupur  
+**2022 – 2026**
+
+### Areas of Experience
+
+- Data Analytics
+- Data Science
+- Machine Learning
+- Backend Development
+- API Development
+- AI/LLM Applications
+- Business Intelligence
+
+---
+
+# Certifications & Learning
+
+- **Data Science Internship** — Unified Mentor
+- **The Joy of Computing Using Python** — NPTEL
+- **Data Analytics** — Cognitive.ai
+- **Excel** — Jobaaj Learning
+- **Business Intelligence & Analytics** — NPTEL
+- **Data Analytics Essentials** — Cisco
+
+---
+
+# GitHub Activity
+
+<div align="center">
+
+<img
+  src="https://streak-stats.demolab.com?user=SoumyaRM2004&hide_border=true&theme=transparent"
+  alt="SoumyaRM2004 GitHub contribution streak"
+/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<a href="https://github.com/SoumyaRM2004?tab=repositories">
+<img src="https://img.shields.io/badge/View%20All%20Repositories-181717?style=for-the-badge&logo=github" alt="View all repositories">
+</a>
+
+</div>
+
+---
+
+# Currently Exploring
+
+```text
+┌────────────────────────────────────────────────────┐
+│                                                    │
+│  Agentic AI                                       │
+│       ↓                                            │
+│  LangGraph + Multi-Agent Systems                  │
+│       ↓                                            │
+│  RAG + Vector Databases                            │
+│       ↓                                            │
+│  FastAPI + PostgreSQL                              │
+│       ↓                                            │
+│  Data Engineering + ETL                            │
+│       ↓                                            │
+│  Production-Ready AI Applications                  │
+│                                                    │
+└────────────────────────────────────────────────────┘
+```
+
+### Current Interests
+
+`Agentic AI` · `RAG` · `LLM Applications` · `LangGraph` · `FastAPI` · `PostgreSQL` · `Data Engineering` · `AI Systems`
+
+---
+
+# Let's Connect
+
+<div align="center">
+
+If you're working on **AI systems, data platforms, backend engineering, or intelligent automation**, feel free to connect.
+
+<br>
+
+<a href="https://github.com/SoumyaRM2004">
+<img src="https://img.shields.io/badge/GitHub-SoumyaRM2004-181717?style=for-the-badge&logo=github" alt="GitHub">
+</a>
+
+<a href="https://www.linkedin.com/in/srmohapatra">
+<img src="https://img.shields.io/badge/LinkedIn-srmohapatra-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+</a>
+
+<a href="mailto:soumyasrm04@gmail.com">
+<img src="https://img.shields.io/badge/Email-soumyasrm04%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+
+<br><br>
+
+### Code. Build. Analyze. Automate.
 
 </div>
